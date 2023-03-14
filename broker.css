@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  max-width: 100%;
+}
+/* nav desktop styling */
+.klo {
+  background-color: black;
+  text-align: center;
+  height: 50px;
+
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+}
+.fa fa-search {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.klo ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  color: white;
+  text-align: right;
+  float: right;
+  gap: 30px;
+  margin-right: 200px;
+  padding-top: 15px;
+}
+.klo ul li a {
+  text-decoration: none;
+  color: azure;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.account {
+  border: 1px solid #ff5e0e;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: #ff5e0e;
+  border-radius: 20px;
+  text-align: center;
+}
+:hover.account {
+  border: 1px solid #ff5e0e;
+  padding-left: 20px;
+  font-size: 15px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #ff5e0e;
+  background-color: black;
+  border-radius: 20px;
+}
+.market {
+  width: 100%;
+
+  border: 1px solid #252842;
+  height: 140px;
+  background-color: #252842;
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+}
+
+.market nav {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 100%;
+  margin-left: 600px;
+
+  gap: 20px;
+}
+.market nav a {
+  text-decoration: none;
+  text-align: center;
+  color: blanchedalmond;
+  padding-top: 80px;
+  text-align: center;
+  font-size: 20px;
+}
+:hover .market nav a {
+  cursor: pointer;
+  color: mintcream;
+}
+.address {
+  background-image: url("./images/nigeria-education-desktop-min.jpg.webp");
+
+  background-position: cover;
+  background-size: cover;
+  display: flex;
+  max-width: 100%;
+
+  background-repeat: no-repeat;
+  height: 830px;
+  color: antiquewhite;
+}
+:hover .address {
+}
+.moo {
+  margin-left: 50px;
+}
+
+.moo h1 {
+  padding-top: 60px;
+  margin-left: 100px;
+  font-size: 40px;
+}
+.moo h4 {
+  margin-left: 100px;
+  padding-top: 50px;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.moo h5 {
+  font-size: 20px;
+  margin-left: 100px;
+  padding-top: 30px;
+}
+.forces {
+  height: 150px;
+  background-color: #fff;
+  color: black;
+  text-align: center;
+}
+.forces h1 {
+  padding-top: 70px;
+  font-weight: lighter;
+  color: black;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.forces h4 {
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: lighter;
+  padding-bottom: 50px;
+}
+
+.btn {
+  background-color: #9efd38;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid #9efd38;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-left: 100px;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+:hover .btn {
+  border: 1px solid #9efd38;
+  background-color: black;
+  cursor: grab;
+}
+:hover .btn .register {
+  color: #9efd38;
+  background-color: black;
+  cursor: grab;
+}
+
+.btn .register {
+  text-decoration: none;
+  color: black;
+}
+.risk {
+  margin-left: 100px;
+  font-size: 15px;
+  margin-top: 30px;
+  color: inherit;
+}
+.blogss {
+  background-color: #252842;
+  height: 60vh;
+  margin-top: 100px;
+  opacity: 1;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.trust {
+  text-align: center;
+  padding-top: 90px;
+  font-size: 45px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+.pile {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-left: 150px;
+  margin-right: 150px;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: center;
+}
+.pile div {
+}
+
+.blocks {
+  font-size: 25px;
+  padding-top: 40px;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+}
+.cook {
+  padding-top: 40px;
+  font-size: 20px;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+}
+/* klo responsive */
+
+@media screen and(max-width: 992px) {
+  .klo {
+    max-width: 100%;
+  }
+}
+/* Blogs responsive */
+@media screen and (max-width: 992px) {
+  .pile {
+    display: flex;
+    flex-direction: column;
+    background-color: #252842;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .pile div {
+    border: 1px solid black;
+    border-width: 100%;
+
+    height: 100%;
+  }
+  .image {
+    display: none;
+  }
+}
